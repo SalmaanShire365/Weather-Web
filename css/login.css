@@ -1,8 +1,10 @@
 html {
     height: 100%;
+    background-image:url("/images/bg.jpg");
+    background-size: cover;
   }
   
-  body {
+body {
     height: 100%;
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
@@ -10,10 +12,11 @@ html {
     justify-items: center;
     align-items: center;
    
-    background-image:url('https://raw.githubusercontent.com/TylerPottsDev/weather-app-js/master/bg.jpg');
+    
   }
   
   #main-holder {
+
     width: 50%;
     height: 70%;
     display: grid;
@@ -50,7 +53,7 @@ html {
   }
   
   #login-form {
-    align-self: flex-start;
+    align-self:flex-start;
     display: grid;
     justify-items: center;
     align-items: center;
